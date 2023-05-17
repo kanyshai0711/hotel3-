@@ -50,3 +50,11 @@ class User(AbstractBaseUser):
         code = get_random_string(10)
         self.activation_code=code
         self.save()
+
+
+
+
+
+
+
+
